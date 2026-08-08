@@ -2,18 +2,19 @@
 <html>
 <head>
     <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <h1>My To-Do List</h1>
 
-    <input type="text" placeholder="Enter a task">
-    <button>Add Task</button>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
 
-    <ul>
-        <li>Study</li>
-        <li>Complete assignment</li>
-    </ul>
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
